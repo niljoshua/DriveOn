@@ -1,0 +1,24 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --tittle: 16px;
+    --sub-tittle: 10px;
+    --color-primary: #5712a6;
+    --color-secondary: #82809c;
+}
+
+a, ul, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+

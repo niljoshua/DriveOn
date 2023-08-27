@@ -1,0 +1,320 @@
+@media (max-width: 2560px) {
+
+    body {
+        background-color: #ffffff;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    nav > ul {
+        display: flex;
+        gap: 30px;
+        font-size: 12px;
+    }
+
+    .nav li a {
+        color: #82809c;
+        font-size: 22px;
+        text-decoration: none;
+      }
+
+    .areaLogo {
+        display: flex;
+        height: 150px;
+        width: 400px;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 150px;
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .areaLogo > img {
+        width: 250px;
+    }
+    .areaMenu {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        align-items: stretch;
+        flex-direction: row;
+    }
+
+    .areaUser {
+        display: flex;
+        gap: 5px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .areaUser > button {
+        margin: 10px;
+        font-size: 22px;
+        font-weight: bold;
+        width: 100px;
+        background-color: transparent;
+        border: none;
+        color: #5712a6;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .areaUser > button:nth-child(2){
+        border: 1px solid #2678fa;
+        padding: 5px 7px;
+        border-radius: 5px;
+        color: #2678fa;
+        
+    }
+
+    .icon-user {
+        width: 15px;
+    }
+    
+}
+
+@media (max-width: 1440px) {
+
+    body {
+        background-color: #ffffff;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    nav > ul {
+        display: flex;
+        gap: 30px;
+        font-size: 12px;
+    }
+
+    .nav li a {
+        color: #82809c;
+        font-size: 16px;
+        text-decoration: none;
+      }
+
+    .areaLogo {
+        display: flex;
+        height: 100px;
+        width: 300px;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 150px;
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .areaLogo > img {
+        width: 150px;
+    }
+    .areaMenu {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        align-items: stretch;
+        flex-direction: row;
+    }
+
+    .areaUser {
+        display: flex;
+        gap: 5px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .areaUser > button {
+        margin: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100px;
+        background-color: transparent;
+        border: none;
+        color: #5712a6;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .areaUser > button:nth-child(2){
+        border: 1px solid #2678fa;
+        padding: 5px 7px;
+        border-radius: 5px;
+        color: #2678fa;
+        
+    }
+
+    .icon-user {
+        width: 15px;
+    }
+    
+}
+
+
+@media (max-width: 1224px) {
+
+    body {
+        background-color: #ffffff;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    nav > ul {
+        display: flex;
+        gap: 30px;
+        font-size: 12px;
+    }
+
+    .nav li a {
+        color: #82809c;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+    .areaLogo {
+        display: flex;
+        height: 100px;
+        width: 200px;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 100px;
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .areaLogo > img {
+        width: 100px;
+    }
+    .areaMenu {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        align-items: stretch;
+        flex-direction: row;
+    }
+
+    .areaUser {
+        display: flex;
+        gap: 5px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .areaUser > button {
+        margin: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100px;
+        background-color: transparent;
+        border: none;
+        color: #5712a6;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .areaUser > button:nth-child(2){
+        border: 1px solid #2678fa;
+        padding: 5px 7px;
+        border-radius: 5px;
+        color: #2678fa;
+        
+    }
+
+    .icon-user {
+        width: 15px;
+    }
+    
+}
+
+@media (max-width: 896px) {
+
+    body {
+        background-color: #ffffff;
+    }
+    nav {
+       display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    nav > ul {
+        display: flex;
+        gap: 1px;
+        font-size: 12px;
+        flex-direction: column;
+    }
+
+    .areaLogo {
+        display: flex;
+        height: 70px;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 50px;
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .areaLogo > img {
+        width: 100px;
+    }
+    .areaMenu {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+
+    .areaMenu > span {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .areaUser {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .areaUser > button {
+        margin: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100px;
+        background-color: transparent;
+        border: none;
+        color: #5712a6;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .areaUser > button:nth-child(2){
+        border: 1px solid #2678fa;
+        padding: 5px 7px;
+        border-radius: 5px;
+        color: #2678fa;
+        
+    }
+
+    .icon-user {
+        width: 15px;
+    }
+}
