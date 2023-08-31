@@ -158,7 +158,6 @@
     
 }
 
-
 @media (max-width: 1224px) {
 
     body {
@@ -316,5 +315,12 @@
 
     .icon-user {
         width: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .areaLogo {
+        padding-left: 30px;
     }
 }
